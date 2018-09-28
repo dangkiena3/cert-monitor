@@ -13,3 +13,7 @@ CHANNEL_ID=-1001367757187 ## Channel ID Telegram to receive Alert
 
 ## Create Telegram bot:
 Chat with BotFather
+## How to monitor
+Set cronjob to execute check_ssl.sh
+
+Eg: 0 9 * * * /bin/bash /path/to/file/check_ssl.sh
